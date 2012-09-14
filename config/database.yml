@@ -1,0 +1,18 @@
+development:
+  adapter: postgresql
+  database: mbusiness_development
+  username: postgres
+  password:
+  encoding: utf8
+  pool: 5
+
+test: &test
+  adapter: postgresql
+  database: mbussines_test
+  username: postgres
+  password:
+  encoding: utf8
+  pool: 5
+
+cucumber:
+  <<: *test
