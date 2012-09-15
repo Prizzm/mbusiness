@@ -15,18 +15,19 @@ gem "dynamic_form"
 gem "heroku"
 gem "coffee-rails"
 gem "twitter-bootstrap-rails"
+gem 'haml'
 
 group :test, :development do
   gem "rspec-rails"
   gem "spork-rails"
-  gem "ruby-debug19"
+  gem "debugger"
   gem "awesome_print"
 end
 
 group :development do
   gem "chronic"
   gem "admin_view"
-  gem "ruby-debug19"
+  gem "debugger"
 end
 
 group :test do

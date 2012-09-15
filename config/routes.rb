@@ -17,5 +17,6 @@ BaseApp::Application.routes.draw do
   end
 
   root :to => "pages#index"
+  resources :questions, only: :create
 
 end

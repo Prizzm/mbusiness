@@ -1,0 +1,23 @@
+= form_for Question.new, html: {class: 'form-horizontal'} do |f|
+	.control-group
+		= f.label :busness_name, 'Business Name',:class => 'control-label'
+		%br	
+		= f.text_field :busness_name, :class => 'text_field'
+	.control-group
+		= f.label :location,'Location:',  :class => 'control-label'
+		%br
+		= f.text_field :location, :class => 'text_field'
+	.control-group
+		= f.label :website, 'Website:',  :class => 'control-label'
+		%br
+		= f.text_field :website, :class => 'text_field'
+	.control-group
+		= f.label :phone_number, 'Phone Number:',  :class => 'control-label'
+		%br
+		= f.text_field :phone_number, :class => 'text_field'
+	.control-group
+		= f.label :email, 'Email:',  :class => 'control-label'
+		%br
+		= f.text_field :email, :class => 'text_field'
+	%p{:align => 'center'}
+		= image_submit_tag 'submit.png'
