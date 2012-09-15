@@ -14,7 +14,7 @@
 .text_right{ text-align: right; }
 .text_center{ text-align: center; }
 
-.clear_both{ clear: both; }
+.clear{ clear: both; } 
 
 .left{
 	float:left;
@@ -49,6 +49,18 @@ input{
 border: 1px solid #9d9487;
 padding:3px;
 margin:5px;
+}
+
+
+
+input[type=image]{
+	background-color: transparent; !important;
+	border-radius: none !important; 
+-moz-border-radius: none !important; 
+-webkit-border-radius: none !important; 
+border:none !important;
+padding:none !important;
+margin:none !important;
 }
 
 /****************************************************************************************************************************
@@ -196,6 +208,7 @@ padding: 13px 60px;
 	border: 2px #d7ccbd dashed;
     margin: 30px 20px;
     padding:10px;
+    float:left;
 
 }
 
@@ -280,41 +293,62 @@ margin:30px auto;
 
 
 .alert{
-    padding:10px;
-    margin:10px;
-    background-color: #bb756f;
-    width:40%;
-}
-.right{
-	float:right;
-}
-
-.left{
-	float:left;
+padding: 5px;
+margin: 10px;
+background-color: #BB756F;
+width: 40%;
+position: absolute;
+z-index: 10000;
+top: 512px;
 }
 
-.form_questions{
-	position:relative;
-	bottom:130px;
-	right:50px;
+.form_title{
+	z-index: 1000;
+position: relative;
+top: 11px;
+left: 44px;
 }
-.form_div{
-	position:relative;
-	background-color:#E7DDCE;
-	margin-left: auto;
-	margin-right: auto;
-	padding-right:10px;
-	padding-top: 10px;
-	width:270px;
+
+.form_questions{	
+	margin: -130px 0 0 -90px;
+}
+#new_question{
+	background-color: #E7DDCE;
+padding-right: 10px;
+padding-top: 10px;
+width: 265px;
+border: 2px solid #999186;
+border-left: none;
+border-top: none;
+margin: 0 auto;
 }
 
 .form_top{
-	position:relative;
-	z-index: 100;
-	bottom:-10px;
+width: 300px;
+height: 103px;
+margin: 0 auto;
+float:left;
 }
 
 .form_sub{
 	margin-left: auto;
 	margin-right: auto;
+}
+
+
+.control-group{
+  margin-left: 30px;
+
+}
+
+.column1{
+   float:left;
+   width:500px;
+
+}
+
+.column2{
+   float:right;
+   width:300px;
+
 }
