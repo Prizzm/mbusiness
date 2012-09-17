@@ -1,4 +1,4 @@
-= form_for Question.new, html: {class: 'form-horizontal'} do |f|
+= form_for Question.new, :validate => true, html: {class: 'form-horizontal'} do |f|
 	.control-group
 		= f.label :busness_name, 'Business Name:',:class => 'control-label'
 		%br	

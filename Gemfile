@@ -16,6 +16,7 @@ gem "heroku"
 gem "coffee-rails"
 gem "twitter-bootstrap-rails"
 gem 'haml'
+gem 'client_side_validations'
 
 group :test, :development do
   gem "rspec-rails"
