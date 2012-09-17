@@ -1,12 +1,23 @@
 .column1
-	Cursus massa ac mid et egestas porttitor augue ridiculus rhoncus elementum nisi. Cum porttitor porta. Quis, et et, magna penatibus in? Cras. Et eros, enim tincidunt rhoncus lacus nec elementum, scelerisque aliquet porta aliquam adipiscing, adipiscing pellentesque ac! Magnis velit! Enim sociis auctor et aliquam mauris dis augue, scelerisque, cum odio egestas proin purus turpis elementum dis integer turpis? Dapibus. 
-	%br
-	%br
-	Cursus massa ac mid et egestas porttitor augue ridiculus rhoncus elementum nisi. Cum porttitor porta. Quis, et et, magna penatibus in? Cras. Et eros, enim tincidunt rhoncus lacus nec elementum, scelerisque aliquet porta aliquam adipiscing, adipiscing pellentesque ac! Magnis velit! Enim sociis auctor et aliquam mauris dis augue, scelerisque, cum odio egestas proin purus turpis elementum dis integer turpis? Dapibus. 
-
+	.explanation_links passbook  |  deals  |  retail
+	%ul.explanation_header
+		%li.explanation_header Powered by Mightbuy
+	.explanation_text Mightbuy is used by customers to talk about all kinds of products, and share with their friends. By becoming a Mightbuy business you can turn these conversations into sales.
+	%ul.explanation_header 
+		%li.explanation_header Social Sales
+	.explanation_text You want your customers talking about your products. With Mightbuy, customers ask their friends if they should buy. That helps your brand whether they buy or not.
+	%table.explanation_text
+		%td.explanation_text               Ask Friends: 
+		%td.explanation_text #{link_to image_tag('email.png'), "mailto:contact@mightbuy.com"}
+		%td.explanation_text #{link_to image_tag('twitter.png'), "https://twitter.com/mightbuy"}
+		%td.explanation_text #{link_to image_tag('fb.png'), "http://www.facebook.com/MightBuyCommunity"}
+	%ul.explanation_header 
+		%li.explanation_header Respond to Demand
+	.explanation_text 	Don’t run deals and bargains that devalue your brand. Let your customers tell you (and their friends) what they want to buy, and respond to demand, make sales!
 .column2
 	.form_questions
 		.form_div
 			=image_tag "singupformtitle.png", :class=>"form_title"
 			= render :partial => 'questions/form'
+	.notes * Sorry , We can not except all businsses for the Mightbuy launch - but the first on the list will be the first to launch, after evaluating your application.
 

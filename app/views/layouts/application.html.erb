@@ -24,7 +24,7 @@
           </a>
           <%-if current_user.nil? %>
           <div id="header_right">
-            <a href="<%=new_user_registration_path()%>"> <span class="login"></span></a>
+            <a href="#business" <span class="login"></span></a>
           </div>
           <%-end%>
           <div class="clear"></div>
@@ -39,8 +39,6 @@
 
           <div class="container_top"></div>
           <div class="content">
-            <%= render "layouts/application/header" %>
-                        <div class="clear"></div>
             <%= render "layouts/application/flash_messages" %>
             <div class="clear"></div>
 

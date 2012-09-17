@@ -1,4 +1,4 @@
-/*
+ /*
  * This is a manifest file that'll automatically include all the stylesheets available in this directory
  * and any sub-directories. You're free to add application-wide styles to this file and they'll appear at
  * the top of the compiled file, but it's generally better to create a new file per style scope.
@@ -11005,12 +11005,12 @@ margin:5px;
 
 #header_right{
 	background-image: url('get_started.png');
-background-repeat: no-repeat;
-display: block;
-float: left;
-width: 25%;
-margin-top: 78px;
-padding: 40px 0 0 30px;
+	background-repeat: no-repeat;
+	display: block;
+	float: left;
+	width: 25%;
+	margin-top: 78px;
+	padding: 40px 0 0 30px;
 }
 
 .home_content{
@@ -11071,49 +11071,48 @@ padding: 40px 0 0 30px;
 *****************************************************************************************************************************/
 
 .home_title{
-background-image: url('home_title.png');
-background-repeat: no-repeat;
-height: 100px;
-width:54%;
-margin: 0 auto;
-clear:both;
+	background-image: url('home_title.png');
+	background-repeat: no-repeat;
+	height: 100px;
+	width:54%;
+	margin: 0 auto;
+	clear:both;
 }
 
 
 .home_left{
-background-image: url('mobile.png');
-background-repeat: no-repeat;
-height: 219px;
-width: 30%;
-float: left;
-margin-left: -51px;
-margin-right: 50px;
-
+	background-image: url('mobile.png');
+	background-repeat: no-repeat;
+	height: 219px;
+	width: 30%;
+	float: left;
+	margin-left: -51px;
+	margin-right: 50px;
 }
 
 
 .home_right{
-background-image: url('retail.png');
-background-repeat: no-repeat;
-height: 219px;
-width: 30%;
-float: right;
-margin-right: -66px;
+	background-image: url('retail.png');
+	background-repeat: no-repeat;
+	height: 219px;
+	width: 30%;
+	float: right;
+	margin-right: -66px;
 }
 
 .home_middle{
-background-image: url('web.png');
-background-repeat: no-repeat;
-height: 219px;
-width: 40%;
-float:left;
-margin-top: -19px;
+	background-image: url('web.png');
+	background-repeat: no-repeat;
+	height: 219px;
+	width: 40%;
+	float:left;
+	margin-top: -19px;
 }
 
 .login{
-background-image: url('signup.png');
-background-repeat: no-repeat;
-padding: 13px 60px;
+	background-image: url('signup.png');
+	background-repeat: no-repeat;
+	padding: 13px 60px;
 }
 
 .header_nav{
@@ -11122,86 +11121,76 @@ padding: 13px 60px;
 	border: 2px #d7ccbd dashed;
     margin: 30px 20px;
     padding:10px;
-
 }
-
 
 .header_nav li {
 	display: inline;
 	margin-right: 10px;
     padding-right: 15px;
-    	border-right: 1px #d7ccbd solid;
+    border-right: 1px #d7ccbd solid;
 }
-
 
 .header_nav a {
-		color:#141414;
-
-
-	
-  text-decoration: none;
+	color:#141414;
+  	text-decoration: none;
 }
 
+
 .footer_logo{
-background-image: url('footer_logo.png');
-background-repeat: no-repeat;
-width:150px;
-height: 80px;
-margin:30px auto;
+	background-image: url('footer_logo.png');
+	background-repeat: no-repeat;
+	width:150px;
+	height: 80px;
+	margin:30px auto;
 }
 
 .footer_menu{ 
 	float:right;
 }
 
-	.footer_menu a{
+.footer_menu a{
     border-right: 1px #d7ccbd solid;
     margin-right: 10px;
     color:#d7ccbd; 
     text-decoration: none;
     padding-right: 5px;
-	}
-
-
-
-
-
-.field_with_errors label{
-  color:red;
-  font-weight: bold;
-  border-bottom: 2px solid red;
 }
 
+.field_with_errors label{
+	color:red;
+	font-weight: bold;
+	border-bottom: 2px solid red;
+}
 
 #error_explanation {
-  width: 400px;
-  border: 2px solid #bb756f;
-  padding: 7px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
+	width: 400px;
+	border: 2px solid #bb756f;
+	padding: 7px;
+	padding-bottom: 12px;
+	margin-bottom: 20px;
+	background-color: #f0f0f0;
 }
 
 #error_explanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: -7px;
-  background-color: #bb756f;
-  color: #fff;
+	text-align: left;
+	font-weight: bold;
+	padding: 5px 5px 5px 15px;
+	font-size: 12px;
+	margin: -7px;
+	background-color: #bb756f;
+	color: #fff;
 }
 
 #error_explanation p {
-  color: #333;
-  margin-bottom: 0;
-  padding: 5px;
+	color: #333;
+	margin-bottom: 0;
+	padding: 5px;
 }
 
 #error_explanation ul li {
-  font-size: 12px;
-  list-style: square;
-  margin:5px;
+	font-size: 12px;
+	list-style: square;
+	margin:5px;
 }  
 
 
@@ -11224,6 +11213,7 @@ margin:30px auto;
 	bottom:130px;
 	right:50px;
 }
+
 .form_div{
 	position:relative;
 	background-color:#E7DDCE;
