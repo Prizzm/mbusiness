@@ -44,5 +44,8 @@ module BaseApp
 
     # Heroku requires setting
     config.assets.initialize_on_precompile = false
+
+
+
   end
 end
