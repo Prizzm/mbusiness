@@ -23864,7 +23864,33 @@ $.extend( $.ui.tabs.prototype, {
 }).call(this);
 (function() {
 
-
+  jQuery(function() {
+    $('#passbook').click(function(e) {
+      e.preventDefault();
+      $(".passbook").removeClass('hidden');
+      $('.retail').addClass('hidden');
+      return $('.deals').addClass('hidden');
+    });
+    $('#deals').click(function(e) {
+      e.preventDefault();
+      $(".passbook").addClass('hidden');
+      $('.retail').addClass('hidden');
+      return $('.deals').removeClass('hidden');
+    });
+    $('#retail').click(function(e) {
+      e.preventDefault();
+      $(".passbook").addClass('hidden');
+      $('.retail').removeClass('hidden');
+      return $('.deals').addClass('hidden');
+    });
+    return $(".login").click(function(e) {
+      e.preventDefault();
+      $('html,body').animate({
+        scrollTop: 400
+      }, 'slow');
+      return $("#question_busness_name").focus();
+    });
+  });
 
 }).call(this);
 /**
@@ -24033,6 +24059,9 @@ $.extend( $.ui.tabs.prototype, {
 // // It's not advisable to add code directly here, but if you do, it'll appear at the bottom of the
 // // the compiled file.
 // //
+
+
+
 
 
 
