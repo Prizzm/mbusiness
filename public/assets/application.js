@@ -23869,19 +23869,28 @@ $.extend( $.ui.tabs.prototype, {
       e.preventDefault();
       $(".passbook").removeClass('hidden');
       $('.retail').addClass('hidden');
-      return $('.deals').addClass('hidden');
+      $('.deals').addClass('hidden');
+      $(this).addClass('active');
+      $('#deals').removeClass('active');
+      return $('#retail').removeClass('active');
     });
     $('#deals').click(function(e) {
       e.preventDefault();
       $(".passbook").addClass('hidden');
       $('.retail').addClass('hidden');
-      return $('.deals').removeClass('hidden');
+      $('.deals').removeClass('hidden');
+      $(this).addClass('active');
+      $('#passbook').removeClass('active');
+      return $('#retail').removeClass('active');
     });
     $('#retail').click(function(e) {
       e.preventDefault();
       $(".passbook").addClass('hidden');
       $('.retail').removeClass('hidden');
-      return $('.deals').addClass('hidden');
+      $('.deals').addClass('hidden');
+      $(this).addClass('active');
+      $('#deals').removeClass('active');
+      return $('#passbook').removeClass('active');
     });
     return $(".login").click(function(e) {
       e.preventDefault();

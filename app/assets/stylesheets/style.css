@@ -406,4 +406,6 @@ margin:none !important;
 .hidden{
 	display: none;
 }
-
+.explanation_links a.active{
+	font-weight: bold;
+}
