@@ -4,7 +4,6 @@ gem "rails"
 
 gem "pg", :require => "pg"
 gem 'activeadmin'
-gem 'sass-rails'
 gem "jquery-rails"
 gem "devise"
 gem "omniauth-facebook"
@@ -13,10 +12,13 @@ gem "carrierwave"
 gem "meta_search"
 gem "dynamic_form"
 gem "heroku"
-gem "coffee-rails"
-gem "twitter-bootstrap-rails"
 gem 'haml'
 gem 'client_side_validations'
+gem 'sass-rails',   '~> 3.2.3'
+gem "twitter-bootstrap-rails"
+gem 'coffee-rails', '~> 3.2.1'
+gem 'uglifier', '>= 1.0.3'
+
 
 group :test, :development do
   gem "rspec-rails"

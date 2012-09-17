@@ -8,8 +8,7 @@
       <![endif]-->
       <%= stylesheet_link_tag "reset" %>
       <%= stylesheet_link_tag "style" %>
- 	  <%= javascript_include_tag :defaults, "application", 'jquery', 'rails.validations', 'rails.validations.custom' -%>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+ 	  	<%= javascript_include_tag "application" -%>
       <%= yield(:head) %>
       <%= csrf_meta_tag %>
 
