@@ -1,19 +1,58 @@
 .column1
-	.explanation_links passbook  |  deals  |  retail
-	%ul.explanation_header
-		%li.explanation_header Powered by Mightbuy
-	.explanation_text Mightbuy is used by customers to talk about all kinds of products, and share with their friends. By becoming a Mightbuy business you can turn these conversations into sales.
-	%ul.explanation_header 
-		%li.explanation_header Social Sales
-	.explanation_text You want your customers talking about your products. With Mightbuy, customers ask their friends if they should buy. That helps your brand whether they buy or not.
-	%table.explanation_text
-		%td.explanation_text               Ask Friends: 
-		%td.explanation_text #{link_to image_tag('email.png'), "mailto:contact@mightbuy.com"}
-		%td.explanation_text #{link_to image_tag('twitter.png'), "https://twitter.com/mightbuy"}
-		%td.explanation_text #{link_to image_tag('fb.png'), "http://www.facebook.com/MightBuyCommunity"}
-	%ul.explanation_header 
-		%li.explanation_header Respond to Demand
-	.explanation_text 	Don’t run deals and bargains that devalue your brand. Let your customers tell you (and their friends) what they want to buy, and respond to demand, make sales!
+	.explanation_links 
+		%a{href: '#' ,id: 'passbook'} passbook
+		|
+		%a{href: '#', id: 'deals'} deals
+		|
+		%a{href: '#', id: 'retail'} retail
+	%div.content_explain  
+		%div.passbook
+			%ul.explanation_header
+				%li.explanation_header Powered by Mightbuy
+			.explanation_text Mightbuy is used by customers to talk about all kinds of products, and share with their friends. By becoming a Mightbuy business you can turn these conversations into sales.
+			%ul.explanation_header 
+				%li.explanation_header Social Sales
+			.explanation_text You want your customers talking about your products. With Mightbuy, customers ask their friends if they should buy. That helps your brand whether they buy or not.
+			%table.explanation_text.center_text
+				%td.explanation_text               Ask Friends:
+				%td.explanation_text #{link_to image_tag('email.png'), "mailto:contact@mightbuy.com"}
+				%td.explanation_text #{link_to image_tag('twitter.png'), "https://twitter.com/mightbuy"}
+				%td.explanation_text #{link_to image_tag('fb.png'), "http://www.facebook.com/MightBuyCommunity"}
+			%ul.explanation_header 
+				%li.explanation_header Respond to Demand
+			.explanation_text 	Don’t run deals and bargains that devalue your brand. Let your customers tell you (and their friends) what they want to buy, and respond to demand, make sales!
+
+		%div.hidden.deals
+			%ul.explanation_header
+				%li.explanation_header Powered by Deals
+			.explanation_text Mightbuy is used by customers to talk about all kinds of products, and share with their friends. By becoming a Mightbuy business you can turn these conversations into sales.
+			%ul.explanation_header 
+				%li.explanation_header Social Sales
+			.explanation_text You want your customers talking about your products. With Mightbuy, customers ask their friends if they should buy. That helps your brand whether they buy or not.
+			%table.explanation_text.center_text
+				%td.explanation_text               Ask Friends:
+				%td.explanation_text #{link_to image_tag('email.png'), "mailto:contact@mightbuy.com"}
+				%td.explanation_text #{link_to image_tag('twitter.png'), "https://twitter.com/mightbuy"}
+				%td.explanation_text #{link_to image_tag('fb.png'), "http://www.facebook.com/MightBuyCommunity"}
+			%ul.explanation_header 
+				%li.explanation_header Respond to Demand
+			.explanation_text 	Don’t run deals and bargains that devalue your brand. Let your customers tell you (and their friends) what they want to buy, and respond to demand, make sales!
+
+		%div.hidden.retail
+			%ul.explanation_header
+				%li.explanation_header Powered by Retail
+			.explanation_text Mightbuy is used by customers to talk about all kinds of products, and share with their friends. By becoming a Mightbuy business you can turn these conversations into sales.
+			%ul.explanation_header 
+				%li.explanation_header Social Sales
+			.explanation_text You want your customers talking about your products. With Mightbuy, customers ask their friends if they should buy. That helps your brand whether they buy or not.
+			%table.explanation_text.center_text
+				%td.explanation_text               Ask Friends:
+				%td.explanation_text #{link_to image_tag('email.png'), "mailto:contact@mightbuy.com"}
+				%td.explanation_text #{link_to image_tag('twitter.png'), "https://twitter.com/mightbuy"}
+				%td.explanation_text #{link_to image_tag('fb.png'), "http://www.facebook.com/MightBuyCommunity"}
+			%ul.explanation_header 
+				%li.explanation_header Respond to Demand
+			.explanation_text 	Don’t run deals and bargains that devalue your brand. Let your customers tell you (and their friends) what they want to buy, and respond to demand, make sales!
 .column2
 	.form_questions
 		.form_div

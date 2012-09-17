@@ -339,12 +339,15 @@ margin:none !important;
    width:300px;
 }
 
-.explanation_links {
+.explanation_links a {
 	font-family: 'century gothic',verdana,arial,helvetica,sans-serif;
 	font-size: 14px;
 	color: #b7423d;
 	text-align:center;
-	padding: 20px;
+	padding: 10px;
+}
+.explanation_links{
+	margin-left:50px;
 }
 .explanation_text {
 	margin-left: 50px;
@@ -362,6 +365,7 @@ margin:none !important;
 	margin-right: auto;
 	font-size: 12px;
 	font-weight: bold;
+
 }
 
 .explanation_header {
@@ -398,3 +402,8 @@ margin:none !important;
 	margin-top: 3px;
 	margin-bottom: 5px;    
 }
+
+.hidden{
+	display: none;
+}
+
