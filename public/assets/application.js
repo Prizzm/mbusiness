@@ -23865,6 +23865,7 @@ $.extend( $.ui.tabs.prototype, {
 (function() {
 
   jQuery(function() {
+    var current;
     $('#passbook').click(function(e) {
       e.preventDefault();
       $(".passbook").removeClass('hidden');
@@ -23892,13 +23893,19 @@ $.extend( $.ui.tabs.prototype, {
       $('#deals').removeClass('active');
       return $('#passbook').removeClass('active');
     });
-    return $(".login").click(function(e) {
+    $(".login").click(function(e) {
       e.preventDefault();
       $('html,body').animate({
         scrollTop: 400
       }, 'slow');
       return $("#question_busness_name").focus();
     });
+    current = $(location).attr('href').split('#')[1];
+    if (current) {
+      return $("#" + current).click();
+    } else {
+      return $('#deals').addClass('active');
+    }
   });
 
 }).call(this);
