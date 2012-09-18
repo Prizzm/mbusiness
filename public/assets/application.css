@@ -11347,3 +11347,11 @@ ol li{
   left: 300px;
   position: relative;
 }
+
+.retail_img{
+	bottom: 60px;
+	height: auto;
+	left: 355px;
+	position: relative;
+	width: 100px;
+}
