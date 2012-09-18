@@ -372,7 +372,7 @@ margin:none !important;
 	margin-bottom: 0px;
 	margin-left: 20px;
 	color: #b7423d;
-	font-size: 28px;
+	font-size: 26px;
 	font-weight: bold;	
 	font-family: 'museo_700regular';
 	letter-spacing: .005em;
@@ -406,6 +406,17 @@ margin:none !important;
 .hidden{
 	display: none;
 }
+
 .explanation_links a.active{
 	font-weight: bold;
+}
+
+ol li{
+	list-style: decimal
+}
+	
+.passbook_img{
+	bottom: 40px;
+  left: 300px;
+  position: relative;
 }
