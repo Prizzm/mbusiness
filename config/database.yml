@@ -1,7 +1,7 @@
 development:
   adapter: postgresql
   database: mbusiness_development
-  username: postgres
+  username: prizzm
   password:
   encoding: utf8
   pool: 5
@@ -9,7 +9,7 @@ development:
 test: &test
   adapter: postgresql
   database: mbussines_test
-  username: postgres
+  username: prizzm
   password:
   encoding: utf8
   pool: 5
