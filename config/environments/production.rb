@@ -50,5 +50,7 @@ BaseApp::Application.configure do
   # Compress both stylesheets and JavaScripts
   config.assets.js_compressor  = :uglifier
   config.assets.css_compressor = :scss
+  
+  config.middleware.use("Rack::GoogleAnalytics", :web_property_id => "UA-33864065-2")
 
 end

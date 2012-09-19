@@ -45,4 +45,5 @@ end
 
 group :production, :development do
   gem "thin"
+  gem 'rack-google_analytics', :require => "rack/google_analytics"
 end
