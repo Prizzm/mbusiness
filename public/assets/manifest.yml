@@ -1,14 +1,25 @@
 --- 
 content_middle_bg.png: content_middle_bg.png
+custom_deals.png: custom_deals.png
+deals.png: deals.png
+deals_01.png: deals_01.png
+deals_02.png: deals_02.png
+deals_iphone.png: deals_iphone.png
+deals_screenshot.png: deals_screenshot.png
+deals_setup.png: deals_setup.png
+deals_social.png: deals_social.png
 down_arrow.gif: down_arrow.gif
 footer_bg.png: footer_bg.png
 footer_logo.png: footer_logo.png
 get_started.png: get_started.png
+half_moon_divisor.png: half_moon_divisor.png
 header.png: header.png
 header_bg.png: header_bg.png
 home_title.png: home_title.png
+login_bottom.png: login_bottom.png
 logo.png: logo.png
 mobile.png: mobile.png
+new_product.png: new_product.png
 passbook.png: passbook.png
 rails.png: rails.png
 retail.png: retail.png

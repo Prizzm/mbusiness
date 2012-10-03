@@ -23873,7 +23873,8 @@ $.extend( $.ui.tabs.prototype, {
       $('.deals').addClass('hidden');
       $(this).addClass('active');
       $('#deals').removeClass('active');
-      return $('#retail').removeClass('active');
+      $('#retail').removeClass('active');
+      return $('#deals_inner').addClass('hidden');
     });
     $('#deals').click(function(e) {
       e.preventDefault();
@@ -23882,7 +23883,8 @@ $.extend( $.ui.tabs.prototype, {
       $('.deals').removeClass('hidden');
       $(this).addClass('active');
       $('#passbook').removeClass('active');
-      return $('#retail').removeClass('active');
+      $('#retail').removeClass('active');
+      return $('#deals_inner').removeClass('hidden');
     });
     $('#retail').click(function(e) {
       e.preventDefault();
@@ -23891,9 +23893,17 @@ $.extend( $.ui.tabs.prototype, {
       $('.deals').addClass('hidden');
       $(this).addClass('active');
       $('#deals').removeClass('active');
-      return $('#passbook').removeClass('active');
+      $('#passbook').removeClass('active');
+      return $('#deals_inner').addClass('hidden');
     });
     $(".login").click(function(e) {
+      e.preventDefault();
+      $('html,body').animate({
+        scrollTop: 400
+      }, 'slow');
+      return $("#question_busness_name").focus();
+    });
+    $(".login_bottom").click(function(e) {
       e.preventDefault();
       $('html,body').animate({
         scrollTop: 400

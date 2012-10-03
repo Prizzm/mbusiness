@@ -384,11 +384,13 @@ margin:none !important;
     font-weight: normal;
     font-style: normal;
 	line-height: 30px;
+
 }
 
 .explanation_header li { 
 	list-style-image: url("bullet.png");
     padding: 0 0 0 0;
+    text-shadow: 0.2em 0.2em 0.3em #c0c0c0;
 }
 
 .notes {
@@ -428,4 +430,177 @@ ol li{
 	left: 358px;
 	position: relative;
 	width: 100px;
+}
+
+
+.divisor{
+	height: 10px;
+	background-color: #a63f3e;
+	margin:10px -12px;
+}
+
+.dels_column2{
+	padding-top: 0 !important
+}
+.deals_image{
+	background-image: url('deals.png');
+background-repeat: no-repeat;
+height: 114px;
+width: 125%;
+float: left;
+margin-left: -70px;
+
+
+}
+
+.deals_iphone{
+background-image: url('deals_iphone.png');
+background-repeat: no-repeat;
+height: 360px;
+width: 125%;
+float: left;
+margin-left: -70px;
+
+}
+
+.deals_middle{
+background-image: url('deals_01.png');
+background-repeat: no-repeat;
+height: 440px;
+width: 100%;
+margin-left: 63px;
+margin-top: -3px;
+}
+
+.deals_constumer_image{
+background-image: url('deals_02.png');
+background-repeat: no-repeat;
+height: 268px;
+width: 50%;
+margin-left: -2px;
+margin-top: 30px;	
+float: left;
+}
+
+.deals_info{
+	font-size: 18px;
+	text-align: center;
+	width: 104%;
+}
+.center{
+	text-align: center;
+}
+
+.underline{
+	text-decoration: underline;
+}
+
+.deals_costumer {
+border: 2px solid #A63F3E;
+width: 350px;
+padding: 15px;
+margin: 70px 0 20px 80px;
+float: left;
+
+}
+
+.inner{
+	font-size: 18px !important;
+}
+
+
+.title{
+	color: #b7423d;
+	font-size: 20px;
+	font-weight: bold;	
+	font-family: 'museo_700regular';
+	letter-spacing: .005em;
+    src: url('museo700-regular-webfont.eot');
+    src: url('museo700-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('museo700-regular-webfont.woff') format('woff'),
+         url('museo700-regular-webfont.ttf') format('truetype'),
+         url('museo700-regular-webfont.svg#museo_700regular') format('svg');
+	line-height: 30px;
+	text-shadow: 0.2em 0.2em 0.3em #c0c0c0;
+	text-align: center;
+	margin:0 auto;
+
+}
+
+
+.new_product{
+background-image: url('new_product.png');
+background-repeat: no-repeat;
+height: 250px;
+width: 102%;
+margin-top: 10px;	
+float: left;
+}
+
+.custom_deals{
+background-image: url('custom_deals.png');
+background-repeat: no-repeat;
+height: 250px;
+width: 121%;
+margin-top: 10px;	
+float: left;
+}
+
+
+.deal_column{
+	width:40%;
+	float: left;
+	margin-left: 5%;
+}
+
+.width70{
+width:70%;
+}
+
+
+.deals_screenshot{
+	background-image: url('deals_screenshot.png');
+background-repeat: no-repeat;
+height: 250px;
+width: 80%;
+margin: 10px 0 20px 50px;	
+float: left;
+}
+.deals_social.png{
+	background-image: url('deals_social.png');
+background-repeat: no-repeat;
+height: 250px;
+width: 90%;
+margin: 10px 0 20px 30px;	
+float: left;
+}
+
+.half_moon_divisor{
+background-image: url('half_moon_divisor.png');
+background-repeat: no-repeat;
+height: 50px;
+width: 80%;
+margin: 10px auto;	
+}
+
+.deals_setup{
+background-image: url('deals_setup.png');
+background-repeat: no-repeat;
+height: 400px;
+width: 700px;
+margin: 0 auto;	
+}
+.black_title{
+	color: #171717;
+	font-weight: bold;
+}
+
+
+.login_bottom{
+background-image: url('login_bottom.png');
+background-repeat: no-repeat;
+padding: 23px 75px;
+position: relative;
+top: 184px;
+left: 505px;
 }
